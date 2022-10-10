@@ -43,7 +43,7 @@ module.exports = {
       },
       items: [
         // { type: 'docsVersionDropdown' },
-        { to: 'docs', label: 'Documentation' },
+        { to: 'docs/simulate-pod-chaos-on-kubernetes/', label: 'Documentation' },
         // { to: 'interactive-tutorial', label: 'Interactive Tutorial' },
         // {
         //   to: 'blog',

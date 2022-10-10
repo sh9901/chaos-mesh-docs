@@ -2,18 +2,6 @@
   "version-2.2.0/docs": [
     {
       "type": "category",
-      "label": "About Chaos Mesh",
-      "items": [
-        {
-          "type": "doc",
-          "id": "version-2.2.0/overview"
-        }
-      ],
-      "collapsible": true,
-      "collapsed": true
-    },
-    {
-      "type": "category",
       "label": "Types of Chaos Experiments",
       "items": [
         {
