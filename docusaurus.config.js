@@ -21,20 +21,20 @@ module.exports = {
   trailingSlash: true,
   themeConfig: {
     image: 'chaos-mesh-social-preview.png',
-    algolia: {
-      apiKey: '49739571d4f89670b12f39d5ad135f5a',
-      indexName: 'chaos-mesh',
-    },
-    googleAnalytics: {
-      trackingID: 'UA-90760217-2',
-    },
-    announcementBar: {
-      content:
-        'Chaos Mesh is now a CNCF Incubating project 🥳, check out <a href="https://www.cncf.io/blog/2022/02/16/chaos-mesh-moves-to-the-cncf-incubator/" target="_blank">the announcement</a>!',
-      backgroundColor: '#37b5fb',
-    },
+    // algolia: {
+    //   apiKey: '49739571d4f89670b12f39d5ad135f5a',
+    //   indexName: 'chaos-mesh',
+    // },
+    // googleAnalytics: {
+    //   trackingID: 'UA-90760217-2',
+    // },
+    // announcementBar: {
+    //   content:
+    //     'Chaos Mesh is now a CNCF Incubating project 🥳, check out <a href="https://www.cncf.io/blog/2022/02/16/chaos-mesh-moves-to-the-cncf-incubator/" target="_blank">the announcement</a>!',
+    //   backgroundColor: '#37b5fb',
+    // },
     navbar: {
-      hideOnScroll: true,
+      hideOnScroll: false,
       title: 'Chaos Mesh',
       logo: {
         alt: 'Chaos Mesh',
@@ -42,92 +42,92 @@ module.exports = {
         srcDark: 'img/logos/logo-mini-white.svg',
       },
       items: [
-        { type: 'docsVersionDropdown' },
+        // { type: 'docsVersionDropdown' },
         { to: 'docs', label: 'Documentation' },
-        { to: 'interactive-tutorial', label: 'Interactive Tutorial' },
-        {
-          to: 'blog',
-          label: 'Blog',
-          position: 'right',
-        },
-        {
-          href: 'https://community.cncf.io/chaos-mesh-community/',
-          label: 'Events',
-          position: 'right',
-        },
-        {
-          type: 'localeDropdown',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/chaos-mesh/chaos-mesh',
-          className: 'header-github-link',
-          'aria-label': 'GitHub',
-          position: 'right',
-        },
+        // { to: 'interactive-tutorial', label: 'Interactive Tutorial' },
+        // {
+        //   to: 'blog',
+        //   label: 'Blog',
+        //   position: 'right',
+        // },
+        // {
+        //   href: 'https://community.cncf.io/chaos-mesh-community/',
+        //   label: 'Events',
+        //   position: 'right',
+        // },
+        // {
+        //   type: 'localeDropdown',
+        //   position: 'right',
+        // },
+        // {
+        //   href: 'https://github.com/chaos-mesh/chaos-mesh',
+        //   className: 'header-github-link',
+        //   'aria-label': 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
       links: [
-        {
-          title: 'Documentation',
-          items: [
-            {
-              label: 'Quick Start',
-              to: 'docs/quick-start',
-            },
-            {
-              label: 'Run a Chaos Experiment',
-              to: 'docs/run-a-chaos-experiment',
-            },
-            {
-              label: 'Developer Guide Overview',
-              to: 'docs/developer-guide-overview',
-            },
-            {
-              label: 'FAQs',
-              to: 'docs/faqs',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/chaos_mesh',
-            },
-            {
-              label: 'Slack (#project-chaos-mesh)',
-              href: 'https://slack.cncf.io/',
-            },
-            {
-              label: 'Events',
-              href: 'https://community.cncf.io/chaos-mesh-community/',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/chaos-mesh/chaos-mesh',
-            },
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-          ],
-        },
-        {
-          title: 'Others',
-          items: [
-            {
-              html: '<a href="https://www.netlify.com"><img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" /></a>',
-            },
-          ],
-        },
+        // {
+        //   title: 'Documentation',
+        //   items: [
+        //     {
+        //       label: 'Quick Start',
+        //       to: 'docs/quick-start',
+        //     },
+        //     {
+        //       label: 'Run a Chaos Experiment',
+        //       to: 'docs/run-a-chaos-experiment',
+        //     },
+        //     {
+        //       label: 'Developer Guide Overview',
+        //       to: 'docs/developer-guide-overview',
+        //     },
+        //     {
+        //       label: 'FAQs',
+        //       to: 'docs/faqs',
+        //     },
+        //   ],
+        // },
+        // {
+        //   title: 'Community',
+        //   items: [
+        //     {
+        //       label: 'Twitter',
+        //       href: 'https://twitter.com/chaos_mesh',
+        //     },
+        //     {
+        //       label: 'Slack (#project-chaos-mesh)',
+        //       href: 'https://slack.cncf.io/',
+        //     },
+        //     {
+        //       label: 'Events',
+        //       href: 'https://community.cncf.io/chaos-mesh-community/',
+        //     },
+        //   ],
+        // },
+        // {
+        //   title: 'More',
+        //   items: [
+        //     {
+        //       label: 'GitHub',
+        //       href: 'https://github.com/chaos-mesh/chaos-mesh',
+        //     },
+        //     {
+        //       label: 'Blog',
+        //       to: 'blog',
+        //     },
+        //   ],
+        // },
+        // {
+        //   title: 'Others',
+        //   items: [
+        //     {
+        //       html: '<a href="https://www.netlify.com"><img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" /></a>',
+        //     },
+        //   ],
+        // },
       ],
       copyright: `
         <br />
@@ -150,7 +150,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/chaos-mesh/website/edit/master/',
-          editLocalizedFiles: true,
+          editLocalizedFiles: false,
         },
         blog: {
           showReadingTime: true,
