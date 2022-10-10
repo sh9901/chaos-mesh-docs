@@ -35,12 +35,12 @@ module.exports = {
     // },
     navbar: {
       hideOnScroll: false,
-      title: 'Chaos Mesh',
-      logo: {
-        alt: 'Chaos Mesh',
-        src: 'img/logos/logo-mini.svg',
-        srcDark: 'img/logos/logo-mini-white.svg',
-      },
+      title: 'ASTA',
+      // logo: {
+      //   alt: 'Chaos Mesh',
+      //   src: 'img/logos/logo-mini.svg',
+      //   srcDark: 'img/logos/logo-mini-white.svg',
+      // },
       items: [
         // { type: 'docsVersionDropdown' },
         { to: 'docs/simulate-pod-chaos-on-kubernetes/', label: 'Documentation' },
@@ -129,13 +129,13 @@ module.exports = {
         //   ],
         // },
       ],
-      copyright: `
-        <br />
-        <strong>© Chaos Mesh Authors ${new Date().getFullYear()} | Documentation Distributed under CC-BY-4.0 </strong>
-        <br />
-        <br />
-        © ${new Date().getFullYear()} The Linux Foundation. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage/"> Trademark Usage</a> page.
-      `,
+      // copyright: `
+      //   <br />
+      //   <strong>© Chaos Mesh Authors ${new Date().getFullYear()} | Documentation Distributed under CC-BY-4.0 </strong>
+      //   <br />
+      //   <br />
+      //   © ${new Date().getFullYear()} The Linux Foundation. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage/"> Trademark Usage</a> page.
+      // `,
     },
     prism: {
       theme: require('prism-react-renderer/themes/dracula'),
