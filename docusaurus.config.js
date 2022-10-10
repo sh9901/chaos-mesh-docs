@@ -152,12 +152,6 @@ module.exports = {
           editUrl: 'https://github.com/chaos-mesh/website/edit/master/',
           editLocalizedFiles: false,
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: 'https://github.com/chaos-mesh/website/edit/master/',
-          editLocalizedFiles: true,
-        },
         theme: {
           customCss: require.resolve('./src/styles/custom.css'),
         },
